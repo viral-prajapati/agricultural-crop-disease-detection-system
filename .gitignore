@@ -1,0 +1,22 @@
+# Archive folder (old model versions and old app code)
+Archive/
+
+# Unused model variant files (app only uses trained_model.h5)
+DenseNet121_final.h5
+DenseNet121_final.keras
+DenseNet121_weights.weights.h5
+DenseNet121_config.json
+
+# IDE
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
