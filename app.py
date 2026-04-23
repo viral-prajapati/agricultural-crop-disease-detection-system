@@ -352,9 +352,9 @@ def page_header(title, subtitle="", icon="🌾"):
         <div style="font-family:'DM Sans',sans-serif;font-size:0.7rem;font-weight:600;
             letter-spacing:0.15em;text-transform:uppercase;color:#c8a96e;margin-bottom:0.5rem;">
           Agricultural Crop Disease Detection with Treatment Recommendation</div>
-        <h1 style="font-family:'Playfair Display',serif!important;font-size:2.4rem!important;
-            font-weight:800!important;color:#faf6ee!important;margin:0 0 0.5rem 0!important;
-            line-height:1.15!important;text-shadow:0 2px 8px rgba(0,0,0,0.2);">{title}</h1>
+        <div style="font-family:'Playfair Display',serif;font-size:2.4rem;
+            font-weight:800;color:#faf6ee;margin:0 0 0.5rem 0;
+            line-height:1.15;text-shadow:0 2px 8px rgba(0,0,0,0.2);">{title}</div>
         {f'<p style="color:rgba(232,213,163,0.85);font-size:1rem;margin:0;font-weight:300;">{subtitle}</p>' if subtitle else ''}
       </div>
     </div>
